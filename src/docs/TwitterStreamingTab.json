@@ -1,16 +1,16 @@
-[
+<a class="btn btn-lg btn-success" href="#" role="button">button</a>[
 	{
 		"path": "statuses/filter",
-		"params": 
+		"params":
 		[
 			{
 				"default": "",
 				"doc": "<p>A comma separated list of user IDs, indicating the users to return statuses for in the stream.</p>",
 				"required": false,
 				"name": "follow",
-				"options": 
+				"options":
 				[
-					
+
 				]
 			},
 
@@ -19,9 +19,9 @@
 				"doc": "<p>Keywords to track. Phrases of keywords are specified by a comma-separated list.</p>",
 				"required": false,
 				"name": "track",
-				"options": 
+				"options":
 				[
-					
+
 				]
 			},
 
@@ -30,9 +30,9 @@
 				"doc": "<p>Specifies a set of bounding boxes to track.</p>",
 				"required": false,
 				"name": "locations",
-				"options": 
+				"options":
 				[
-					
+
 				]
 			},
 
@@ -41,9 +41,9 @@
 				"doc": "<p>Specifies whether messages should be length-delimited.</p>",
 				"required": false,
 				"name": "delimited",
-				"options": 
+				"options":
 				[
-					
+
 				]
 			},
 
@@ -52,9 +52,9 @@
 				"doc": "<p>Specifies whether stall warnings should be delivered.</p>",
 				"required": false,
 				"name": "stall_warnings",
-				"options": 
+				"options":
 				[
-					
+
 				]
 			}
 		],
@@ -64,16 +64,16 @@
 
 	{
 		"path": "statuses/sample",
-		"params": 
+		"params":
 		[
 			{
 				"default": "",
 				"doc": "<p>Specifies whether messages should be length-delimited.</p>",
 				"required": false,
 				"name": "delimited",
-				"options": 
+				"options":
 				[
-					
+
 				]
 			},
 
@@ -82,9 +82,9 @@
 				"doc": "<p>Specifies whether stall warnings should be delivered.</p>",
 				"required": false,
 				"name": "stall_warnings",
-				"options": 
+				"options":
 				[
-					
+
 				]
 			}
 		],
@@ -94,16 +94,16 @@
 
 	{
 		"path": "statuses/firehose",
-		"params": 
+		"params":
 		[
 			{
 				"default": "",
 				"doc": "<p>The number of messages to backfill.</p>",
 				"required": false,
 				"name": "count",
-				"options": 
+				"options":
 				[
-					
+
 				]
 			},
 
@@ -112,9 +112,9 @@
 				"doc": "<p>Specifies whether messages should be length-delimited.</p>",
 				"required": false,
 				"name": "delimited",
-				"options": 
+				"options":
 				[
-					
+
 				]
 			},
 
@@ -123,9 +123,9 @@
 				"doc": "<p>Specifies whether stall warnings should be delivered.</p>",
 				"required": false,
 				"name": "stall_warnings",
-				"options": 
+				"options":
 				[
-					
+
 				]
 			}
 		],
